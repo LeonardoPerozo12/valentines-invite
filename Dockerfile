@@ -16,11 +16,14 @@ COPY . .
 # **Ensure that the build script runs successfully**
 RUN npm run build
 
-# 2️⃣ Use Nginx as the second stage (Final Image)
+# Use Nginx as the second stage (Final Image)
 FROM nginx:alpine
 
-# Copy the built React files from the first stage
+# Copy built files to Nginx HTML directory
 COPY --from=build /app/dist /usr/share/nginx/html
+
+# Copy custom Nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80 to serve the app
 EXPOSE 80
