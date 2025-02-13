@@ -54,6 +54,7 @@ body {
   align-items: center;
   flex-direction: row;
   justify-content: center;
+  gap: 25px;
 }
 
 .two-col-container p {

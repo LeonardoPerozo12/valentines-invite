@@ -4,7 +4,7 @@ export function Error404 () {
     return (
         <div className="two-col-container">
             <div className="col">
-                <img src="assets/sadness-inside-out.jpg" alt="Error 404" />
+                <img src="/assets/snoopy-asleep-gif.gif" alt="Error 404" />
             </div>
             <div className="col">
                 <h1 style={{ color: '#37a9e7' }}>Page not Found!</h1>
