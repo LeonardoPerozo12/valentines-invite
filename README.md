@@ -1,8 +1,17 @@
-# React + Vite
+# How to use
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Add the following environment variable
 
-Currently, two official plugins are available:
+It should be the URL to the place you want to go to:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+VITE_REACT_APP_PLACE_URL=URL
+```
+
+2. Open the link using the following format
+
+```
+http://localhost:5173/i-love-you/NAME-OF-YOUR-LOVED-ONE/wanna-be-my-valentine
+```
+
+And the component will be displayed with the name of your loved one.
