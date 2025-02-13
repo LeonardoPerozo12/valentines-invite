@@ -1,0 +1,112 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, 
+    #ffccd5 0%,
+    #f6c3de 25%,
+    #e6b7e0 50%,
+    #c8b6ea 75%,
+    #a7c4eb 100%
+  );
+  font-family: "Pixelify Sans", serif;
+  overflow-x: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.two-col-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.two-col-container p {
+  font-size:  1.2rem;
+  font-weight: lighter;
+}
+
+.snoopy-img {
+  position: relative;
+  width: 350px;
+  z-index: 1;
+  margin-bottom: 30%;
+}
+
+.text-cloud-text {
+  font-size: 2em;
+  line-height: 0.9;
+  position: relative;
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .card-container {
+    width: 360px;
+    height: 480px;
+  }
+
+  .card {
+    width: 270px;
+    height: 400px;
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .card-container {
+    width: 320px;
+    height: 420px;
+  }
+
+  .card {
+    width: 240px;
+    height: 350px;
+    font-size: 1.3rem;
+  }
+}
