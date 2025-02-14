@@ -150,7 +150,7 @@ function App() {
               it'll be on february 14th
             </p>
             <p style={{ position: "absolute", top: 60, fontSize: "1.5rem" }}>
-              at 7pm
+              at 9pm
             </p>
             <img src="/assets/snoopy-in-love.webp" alt="heart" style={{ width: '90%', position: "absolute", bottom: 0 }} />
           </motion.div>
@@ -164,7 +164,7 @@ function App() {
               i'll pick you up in a dazzling car
             </p>
             <p style={{ position: "absolute", top: 85, fontSize: "1.5rem" }}>
-              (clearly not an uber)
+              (la supel hilu)
             </p>
             <img src="/assets/snoopy-flying.gif" alt="heart" style={{ width: '90%', position: "absolute", bottom: 0 }} />
           </motion.div>
